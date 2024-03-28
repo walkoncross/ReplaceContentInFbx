@@ -73,5 +73,14 @@ Program Success!
 Replace FBX contents (mesh, blendshape, etc) with new one, using FBX SDK
 
 ### build
+1. set environment variables in ./build.sh;
+2. run:
+```bash
+./build.sh ReplaceContentInFbx
+```
 
 ### usage
+
+```bash
+./bin/ReplaceContentInFbx ./data/squarecube_2bs.fbx pCube1 ./data/longcube.fbx pCube1 ./data/longcube_2bs.fbx
+```
